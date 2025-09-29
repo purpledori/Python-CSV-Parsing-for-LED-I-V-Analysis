@@ -3,13 +3,22 @@ Data cleaning, custom parsing, vectorized calculations, regression analysis, and
 
 # Project Structure
 project_root/
+
 │
+
 ├─ main.py               # Main script to run the analysis pipeline
+
 ├─ parser.py             # Custom CSV parser for messy horizontal LED data
+
 ├─ analysis.py           # Data analysis functions (threshold voltage, Eg, regression)
+
 ├─ plotting.py           # Plotting functions for I-V curves and energy plot
+
 ├─ PCS224 LAB4 - part 1.csv  # Example CSV file (input)
+
 └─ output/
+
+   
    └─ graphs/           # Generated plots and results table will be saved here
 
 # The script will:
